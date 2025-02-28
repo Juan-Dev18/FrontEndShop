@@ -1,0 +1,48 @@
+.loginClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.secondloginClass
+{
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 24rem;
+}
+
+h1{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.selectClass{
+    width: 100%; 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 0.25rem; 
+    margin-bottom: 1rem;
+}
+
+.elementsClass{
+    width: 100%; 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 0.25rem; 
+    margin-bottom: 1rem;
+}
+
+.buttonClass {
+    width: 100%;
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}

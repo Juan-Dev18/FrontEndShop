@@ -1,0 +1,96 @@
+.catalog-container {
+    width: 50%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.product-info {
+    max-width: 70%;
+}
+
+.product-detail p {
+    margin: 5px;
+    display: inline;
+}
+
+.product-info h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.product-info .item-no-des {
+    font-size: 14px;
+    color: #666;
+}
+
+.product-info .stock {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-controls input {
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cart-controls button {
+    background: #003366;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-controls button:hover {
+    background: #002244;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pagination span {
+    margin: 0 10px;
+    font-weight: bold;
+}
